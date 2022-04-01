@@ -1,0 +1,29 @@
+.appbody {
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: .1em;
+    height: 10em;
+
+}
+
+.links {
+    background-color: azure;
+    grid-column: span 12;
+    height: 4em;
+    padding-left: 1em;
+    padding-top: .3em;
+    grid-column-start: 1;
+    grid-column-end: 13;
+}
+
+.btn {
+    height: 3em;
+    border-radius: 5px;
+    width: 5.5em;
+    background-color: blue;
+    color: aliceblue;
+    font-size: medium;
+    margin-left: .1em;
+    font-weight: bold;
+}

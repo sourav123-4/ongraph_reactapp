@@ -1,0 +1,6 @@
+.wallet{
+    grid-column: span 12;
+}
+.wallet>h1>span{
+    color: white;
+}

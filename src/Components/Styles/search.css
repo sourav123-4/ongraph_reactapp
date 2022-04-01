@@ -1,0 +1,25 @@
+.search {
+    grid-column-start: 5;
+    grid-column-end: 10;
+    margin-top: .5em;
+}
+
+.search-input {
+    height: 2.6em;
+    width: 30em;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+    border-color: blue;
+}
+
+.search>button {
+    height: 3em;
+    border-radius: 5px;
+    width: 5.5em;
+    background-color: blue;
+    color: aliceblue;
+    font-size: medium;
+    margin-left: .1em;
+    font-weight: bold;
+}

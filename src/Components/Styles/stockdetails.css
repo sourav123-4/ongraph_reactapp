@@ -1,0 +1,16 @@
+.stock-details {
+    background-color: #bf0d57eb;
+    border-radius: 5px;
+    padding: 1em;
+    color: white;
+    grid-column: span 6;
+    margin-right: .1em;
+
+}
+
+.stock-details>p>span {
+    font-weight: bolder;
+    letter-spacing: .01em;
+    word-spacing: .1em;
+    color: black;
+}

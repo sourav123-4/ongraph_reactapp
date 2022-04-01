@@ -1,0 +1,8 @@
+.search-results {
+    background-color: rgb(179, 21, 247);
+    padding: 1.5em;
+    border-radius: 5px;
+    grid-column-start: 2;
+    grid-column-end: 6;
+
+}

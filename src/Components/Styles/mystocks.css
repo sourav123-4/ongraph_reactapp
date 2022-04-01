@@ -1,0 +1,8 @@
+.mystocks {
+    background-color: rgb(12, 115, 225);
+    padding: 1em;
+    border-radius: 5px;
+    grid-column-start: 2;
+    grid-column-end: 12;
+
+}

@@ -1,0 +1,7 @@
+.home{
+    grid-column: span 12;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    margin-left: 100px;
+    
+}
