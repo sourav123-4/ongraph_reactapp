@@ -5,7 +5,12 @@ export default function ListItem(props) {
         <div className='listitem'>
             <button onClick={() => {
                 props.setData(() => {
-                    return [...props.data, props.results]
+                    if (!props.data.includes(props.results)) {
+                        console.log(props.data)
+                        console.log(props.results)
+                        return [...props.data, props.results]
+                    }
+                    return [...props.data]
                 })
             }}
             >Add</button>

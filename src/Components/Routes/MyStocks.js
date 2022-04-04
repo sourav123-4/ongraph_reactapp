@@ -12,6 +12,7 @@ export default function MyStocks(props) {
         arr.splice(index, 1)
         props.setData(arr)
     }
+
     return (
         <div className='mystocks'>
             <h1><u>MY STOCKS</u></h1>

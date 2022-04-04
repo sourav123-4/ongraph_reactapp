@@ -8,10 +8,12 @@ export default function App(props) {
   const [name, setName] = React.useState("")
   return (
     <div className='appbody'>
+
       <div className='links'>
         <Link to="/"><button className='btn'>Home</button></Link>
         <Link to="/mystocks"><button className='btn'>MyStocks</button></Link>
       </div>
+      <Outlet />
       <Search setName={setName} />
       {!name ? "" :
         <SearchResults
@@ -26,9 +28,6 @@ export default function App(props) {
           details={props.details}
           setShare={props.setShare}
         />}
-      <Outlet />
-
-
     </div>
   )
 }

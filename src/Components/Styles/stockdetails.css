@@ -1,11 +1,10 @@
 .stock-details {
-    background-color: #bf0d57eb;
+    background-color: rgb(12, 115, 225);
     border-radius: 5px;
     padding: 1em;
     color: white;
     grid-column: span 6;
     margin-right: .1em;
-
 }
 
 .stock-details>p>span {
